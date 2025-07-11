@@ -1,7 +1,7 @@
-@import "@fontsource/luckiest-guy"; /* Fonte divertida */
+@import "@fontsource/luckiest-guy";
 
 .home {
-  background: #f6cf00; /* Fundo geral amarelo forte */
+  background: #f6cf00;
   padding: 1.5rem;
   font-family: 'Luckiest Guy', cursive;
   text-align: center;
@@ -29,7 +29,6 @@ h1 {
   display: block;
 }
 
-/* Grade de botões principais */
 .button-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -37,20 +36,11 @@ h1 {
   margin-bottom: 2rem;
 }
 
-/* Linha de atividades */
-.activity-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-/* Botões com ícones */
 .home button {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #ffe35b !important; /* Amarelo claro */
+  background-color: #ffe35b !important;
   border: none;
   padding: 0.8rem 1rem;
   border-radius: 16px;
@@ -63,12 +53,61 @@ h1 {
   justify-content: center;
 }
 
+.home button:hover {
+  transform: scale(1.03);
+  background-color: #ffea87 !important;
+}
+
 .home button img {
   width: 24px;
   height: 24px;
 }
 
-.home button:hover {
-  transform: scale(1.03);
-  background-color: #ffea87 !important;
+.activity-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  cursor: pointer;
+}
+
+.activity img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.3rem;
+}
+
+.activity span {
+  font-size: 0.8rem;
+  color: #2e474c;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #25d366;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s ease;
+  margin: 2rem auto 0;
+  width: fit-content;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
 }
