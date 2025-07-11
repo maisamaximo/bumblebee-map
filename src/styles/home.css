@@ -111,3 +111,53 @@ h1 {
 .whatsapp-button:hover {
   background-color: #1ebe5d;
 }
+
+.lang-dropdown {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 100;
+}
+
+.lang-button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+}
+
+.lang-button .arrow {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.lang-options {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  display: none;
+}
+
+.lang-dropdown:hover .lang-options {
+  display: block;
+}
+
+.lang-option {
+  background: white;
+  border: none;
+  font-size: 20px;
+  padding: 8px 12px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.lang-option:hover {
+  background: #f6cf00;
+}
