@@ -23,7 +23,7 @@ export default function App() {
       <Route path="/dauphins" element={<Dauphins />} />
       <Route path="/canyoning" element={<Canyoning />} />
       <Route path="/randotour" element={<RandoTour />} />
-      <Route path="/assurances" element={<Assurances />} />
+      <Route path="/insurance" element={<Assurances />} />
     </Routes>
   )
 }

@@ -1,15 +1,49 @@
 {
-    "title": "Bumblebee Explorations",
-    "subtitle": "An interactive travel guide",
-    "photos": "View more photos",
-    "extras": "Discover extras",
-    "spots": "Discover spots",
-    "gear": "Add gear",
-    "hiking": "Hiking",
-    "dolphins": "Dolphins",
-    "canyoning": "Canyoning",
-    "hikingTour": "Hiking Tour",
-    "insurance": "Insurance",
-    "contact": "Contact us"
-  }
-  
+  "title": "Bumblebee Explorations",
+  "subtitle": "An interactive travel guide",
+  "photos": "View more photos",
+  "extras": "Discover extras",
+  "spots": "Discover spots",
+  "gear": "Add gear",
+  "hiking": "Hiking",
+  "dolphins": "Dolphins",
+  "canyoning": "Canyoning",
+  "hikingTour": "Hiking Tour",
+  "insurance": "Insurance",
+  "contact": "Contact us",
+
+  "insuranceTitle": "DRIVE SAFE PLANS –",
+  "insuranceSubtitle": "For a trip with complete peace of mind!",
+  "insuranceIntro1": "The daily rate already includes the BASIC insurance, allowing you to rent the van at the best price.",
+  "insuranceIntro2": "However, for more comfort and safety, we offer two optional plans, available at an additional cost, to be paid on-site when returning the vehicle.",
+
+  "basicTitle": "BASIC PLAN – Included in the price",
+  "basicPrice": "Price: €0/day (already included)",
+  "basicDeposit": "Deposit: €1000",
+  "basicDeductible": "Deductible: €1000",
+  "basicCoverage": "Coverage: Civil liability only",
+  "basicNotCovered": "Not covered: Vehicle damage, glass breakage, tires, second driver, or roadside assistance",
+
+  "comfortTitle": "COMFORT PLAN – €19.90/day",
+  "comfortDeposit": "Reduced deposit: €750",
+  "comfortDeductible": "Deductibles:",
+  "comfortDamage": "Vehicle damage: €750",
+  "comfortRoadside": "Roadside assistance: €30",
+  "comfortGlass": "Glass breakage: €100",
+  "comfortCovered": "Covered: Glass breakage, tires, 24/7 travel assistance",
+
+  "serenityTitle": "TOTAL SERENITY PLAN – €29.90/day",
+  "serenityDeposit": "Reduced deposit: €500",
+  "serenityCoverage": "Coverage includes:",
+  "serenityDamage": "Vehicle damage (interior and exterior)",
+  "serenityDriver": "Second driver",
+  "serenityTires": "Tires",
+  "serenityAssist": "Full travel assistance 24/7",
+
+  "photosTitle": "Meet Bumblebee",
+  "photoDescription1": "Description 1",
+  "photoDescription2": "Description 2",
+  "photoDescription3": "Description 3",
+  "photoDescription4": "Description 4"
+}
+

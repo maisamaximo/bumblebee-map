@@ -1,0 +1,90 @@
+@import "@fontsource/luckiest-guy";
+
+.photos-page {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f6cf00;
+  padding: 1.5rem;
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.photos-page h2 {
+  font-size: 2rem;
+  color: #2e474c;
+  margin-bottom: 2rem;
+}
+
+.photo-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.polaroid {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.8rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.polaroid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.polaroid span {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #3a2300;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 201;
+}
+
+.arrow.left {
+  left: 1rem;
+}
+
+.arrow.right {
+  right: 1rem;
+}

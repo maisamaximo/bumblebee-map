@@ -1,0 +1,89 @@
+@import "@fontsource/luckiest-guy";
+
+.assurances {
+  padding: 2rem;
+  background-color: #ffecb3;
+  font-family: 'Luckiest Guy', cursive;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+.title-orange {
+  font-size: 1.8rem;
+  color: #d94c0f;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle-yellow {
+  font-size: 1.2rem;
+  color: #f6cf00;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 0.95rem;
+  margin: 0.5rem auto;
+  max-width: 600px;
+  color: #333;
+}
+
+.plan {
+  background-color: white;
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  text-align: left;
+}
+
+.label {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  background: #f6cf00;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.plan.basic .label {
+  background: #f6cf00;
+}
+
+.plan.comfort .label {
+  background: #00bcd4;
+}
+
+.plan.serenity .label {
+  background: #b16edb;
+}
+
+.plan h3 {
+  margin-top: 1rem;
+  color: #004477;
+  font-size: 1.2rem;
+}
+
+.plan ul {
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.plan li {
+  margin: 0.4rem 0;
+}
+
+.not-covered,
+.covered {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #2e474c;
+}
