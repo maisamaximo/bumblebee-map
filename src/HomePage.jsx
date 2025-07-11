@@ -1,25 +1,31 @@
-// src/HomePage.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { MapContainer, TileLayer } from 'react-leaflet';
-import { Photo, Coffee, MapPin, Gift, Shield, Whatsapp } from 'lucide-react';
+import {
+  Camera,
+  Coffee,
+  MapPin,
+  Gift,
+  Shield,
+  
+} from 'lucide-react';
 
 export default function HomePage() {
   return (
-    // Container principal com fundo amarelo e fonte adventure
-    <div className="min-h-screen bg-bumblebee font-adventure p-4 flex flex-col">
-      {/* Cabeçalho */}
+    <div className="min-h-screen bg-bumblebee font-adventure text-blue-900 p-4 flex flex-col">
+      {/* Header */}
       <header className="text-center mb-4">
-        <h1 className="text-3xl">Bumblebee Explorations</h1>
-        <p className="text-gray-800">An interactive map to help you travel</p>
+        <h1 className="text-3xl font-bold text-brown-800">Bumblebee Explorations</h1>
+        <p className="text-base text-blue-900">Une carte interactive pour voyager</p>
       </header>
 
       {/* Mapa */}
-      <div className="flex-1 rounded-lg overflow-hidden shadow-lg mb-6">
+      <div className="w-full h-48 sm:h-64 rounded-lg overflow-hidden shadow-lg mb-4">
         <MapContainer
           center={[32.7607, -16.9595]}
           zoom={10}
           scrollWheelZoom={false}
-          className="h-full"
+          className="w-full h-full"
         >
           <TileLayer
             attribution="&copy; OpenStreetMap contributors"
@@ -28,52 +34,77 @@ export default function HomePage() {
         </MapContainer>
       </div>
 
-      {/* Cards de funcionalidades */}
-      <div className="space-y-4 mb-6">
-        {/* Exemplo de um card */}
-        <div className="flex items-center bg-white rounded-lg p-3 shadow">
-          <img
-            src="/bumblebee.jpg"
-            alt="Bumblebee Campervan"
-            className="w-12 h-12 rounded-full"
-          />
-          <div className="ml-3">
-            <h2 className="font-semibold">Bumblebee</h2>
-            <p className="text-blue-600 flex items-center text-sm">
-              <Photo className="mr-1" size={16} /> See more photos
-            </p>
-          </div>
-        </div>
-        {/* Repete para restaurantes, spots, extras, insurance */}
+      {/* Grid de Botões */}
+      <div className="grid grid-cols-1 gap-3 mb-6 sm:grid-cols-2">
+        <Link
+          to="/photos"
+          className="bg-yellow-200 rounded-lg flex items-center p-4 shadow"
+        >
+          <Camera size={24} className="mr-2 text-blue-900" />
+          <span className="font-semibold text-blue-900">Voir davantage de&nbsp;photos</span>
+        </Link>
+
+        <Link
+          to="/restaurants"
+          className="bg-yellow-200 rounded-lg flex items-center p-4 shadow"
+        >
+          <Coffee size={24} className="mr-2 text-blue-900" />
+          <span className="font-semibold text-blue-900">Découvrir des extras</span>
+        </Link>
+
+        <Link
+          to="/spots"
+          className="bg-yellow-200 rounded-lg flex items-center p-4 shadow"
+        >
+          <MapPin size={24} className="mr-2 text-blue-900" />
+          <span className="font-semibold text-blue-900">Découvrir des&nbsp;spots</span>
+        </Link>
+
+        <Link
+          to="/insurance"
+          className="bg-yellow-200 rounded-lg flex items-center p-4 shadow"
+        >
+          <Shield size={24} className="mr-2 text-blue-900" />
+          <span className="font-semibold text-blue-900">Assurances</span>
+        </Link>
       </div>
 
-      {/* Atividades */}
-      <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">Activities</h2>
-        <div className="flex space-x-4 overflow-x-auto">
-          {['Dolphin Watching', 'Canyoning', 'Jeep Tour', 'Hiking'].map(label => (
-            <div
-              key={label}
-              className="min-w-[120px] bg-white rounded-lg shadow overflow-hidden"
-            >
-              <img
-                src={`/${label.toLowerCase().replace(/ /g, '_')}.jpg`}
-                alt={label}
-                className="w-full h-20 object-cover"
-              />
-              <p className="text-center text-sm font-medium p-2">{label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Atividades (carrossel horizontal) */}
+      <div className="grid grid-cols-4 gap-2 overflow-x-auto mb-6">
+        <Link to="/dolphins" className="flex flex-col items-center">
+          <img src="/icons/dolphin.svg" alt="Dauphins" className="w-12 h-12" />
+          <span className="text-xs mt-1 text-blue-900">Dauphins</span>
+        </Link>
+        <Link to="/canyoning" className="flex flex-col items-center">
+          <img src="/icons/canyoning.svg" alt="Canyoning" className="w-12 h-12" />
+          <span className="text-xs mt-1 text-blue-900">Canyoning</span>
+        </Link>
+        <Link to="/hiking" className="flex flex-col items-center">
+          <img src="/icons/hiking.svg" alt="Randonnée" className="w-12 h-12" />
+          <span className="text-xs mt-1 text-blue-900">Randonnée</span>
+        </Link>
+        <Link to="/extras" className="flex flex-col items-center">
+          <Gift size={24} className="text-blue-900" />
+          <span className="text-xs mt-1 text-blue-900">Extras</span>
+        </Link>
+      </div>
 
-      {/* Botão WhatsApp */}
-      <a
-        href="https://wa.me/YOUR_NUMBER"
-        className="fixed bottom-4 right-4 bg-green-500 p-4 rounded-full shadow-lg"
-      >
-        <Whatsapp size={24} color="white" />
-      </a>
+      {/* Botão WhatsApp no final da página */}
+      <div className="mt-auto flex justify-center mb-4">
+        <a
+          href="https://wa.me/YOUR_NUMBER"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full shadow-lg flex items-center"
+        >
+          <img
+            src="/icons/whatsapp.svg"
+            alt="WhatsApp"
+            className="w-6 h-6 mr-2"
+          />
+          <span>WhatsApp</span>
+        </a>
+      </div>
     </div>
   );
 }
