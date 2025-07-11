@@ -113,51 +113,58 @@ h1 {
 }
 
 .lang-dropdown {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  z-index: 100;
-}
-
-.lang-button {
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  position: relative;
-}
-
-.lang-button .arrow {
-  font-size: 12px;
-  margin-left: 5px;
-}
-
-.lang-options {
-  position: absolute;
-  right: 0;
-  top: 35px;
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  display: none;
-}
-
-.lang-dropdown:hover .lang-options {
-  display: block;
-}
-
-.lang-option {
-  background: white;
-  border: none;
-  font-size: 20px;
-  padding: 8px 12px;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-}
-
-.lang-option:hover {
-  background: #f6cf00;
-}
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+  }
+  
+  .lang-button {
+    width: 42px;
+    height: 42px;
+    padding: 0px 11px !important;
+    border-radius: 50% !important;
+    border: none;
+    font-size: 20px !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .lang-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .lang-options {
+    position: absolute;
+    right: -4px;
+    top: 50px;
+    background: transparent;
+    display: none;
+  }
+  
+  .lang-dropdown:hover .lang-options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .lang-option {
+    background: white;
+    border: none;
+    font-size: 20px;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+  }
+  
+  .lang-option:hover {
+    background: #f6cf00;
+  }
+  
