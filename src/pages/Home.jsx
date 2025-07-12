@@ -12,7 +12,7 @@ import iconBag from '../assets/icon-bag.png'
 import iconHiking from '../assets/icon-hiking.png'
 import iconDolphins from '../assets/icon-dolphin.png'
 import iconCanyoning from '../assets/icon-canyoning.png'
-import iconRandotour from '../assets/icon-rando.png'
+import iconParagliding from '../assets/icon-rando.png'
 import iconAssurances from '../assets/icon-insurance.png'
 
 export default function Home() {
@@ -109,8 +109,8 @@ export default function Home() {
           <img src={iconCanyoning} alt="Canyoning" />
           <span>{t('canyoning')}</span>
         </div>
-        <div className="activity" onClick={() => navigate('/hiking-tour')}>
-          <img src={iconRandotour} alt="Hiking Tour" />
+        <div className="activity" onClick={() => navigate('/paragliding')}>
+          <img src={iconParagliding} alt="Hiking Tour" />
           <span>{t('hikingTour')}</span>
         </div>
         <div className="activity" onClick={() => navigate('/insurance')}>

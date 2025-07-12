@@ -1,0 +1,26 @@
+.paragliding-page {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .whatsapp-reserve-button {
+    margin-bottom: 30px;
+    background-color: #25d366;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+  }
+  
+  .whatsapp-reserve-button:hover {
+    background-color: #1ebe5d;
+  }
+  

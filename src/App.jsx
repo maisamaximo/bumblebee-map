@@ -8,7 +8,7 @@ import Hiking from './pages/Hiking'
 import AddEstrants from './pages/AddEstrants'
 import Dauphins from './pages/Dauphins'
 import Canyoning from './pages/Canyoning'
-import RandoTour from './pages/RandoTour'
+import Paragliding from './pages/Paragliding'
 import Assurances from './pages/Assurances'
 
 export default function App() {
@@ -20,9 +20,9 @@ export default function App() {
       <Route path="/spots" element={<Spots />} />
       <Route path="/estrants" element={<AddEstrants />} />
       <Route path="/randonnee" element={<Hiking />} />
-      <Route path="/dauphins" element={<Dauphins />} />
+      <Route path="/dolphins" element={<Dauphins />} />
       <Route path="/canyoning" element={<Canyoning />} />
-      <Route path="/randotour" element={<RandoTour />} />
+      <Route path="/paragliding" element={<Paragliding />} />
       <Route path="/insurance" element={<Assurances />} />
     </Routes>
   )

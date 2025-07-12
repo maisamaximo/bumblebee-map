@@ -1,11 +1,11 @@
 import { FaWhatsapp } from 'react-icons/fa'
-import '../styles/dauphins.css'
-import bgImage from '../assets/dauphins-bg.jpg'
+import '../styles/paragliding.css'
+import bgImage from '../assets/paragliding-bg.jpg'
 
-export default function Dauphins() {
+export default function Paragliding() {
   return (
     <div
-      className="dauphins-page"
+      className="paragliding-page"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
