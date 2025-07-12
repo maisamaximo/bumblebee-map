@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import '../styles/photos.css'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
+import '../styles/photos.css'
 
 // Import das imagens
 import photo1 from '../assets/photo1.jpg'

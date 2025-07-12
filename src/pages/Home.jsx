@@ -1,3 +1,4 @@
+import { useState, useRef, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { FaWhatsapp } from 'react-icons/fa'
@@ -18,6 +19,9 @@ export default function Home() {
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
 
+  const [langOpen, setLangOpen] = useState(false)
+  const langRef = useRef()
+
   const languages = {
     en: '🇬🇧',
     fr: '🇫🇷',
@@ -25,26 +29,47 @@ export default function Home() {
     de: '🇩🇪'
   }
 
+  // Fecha o menu ao clicar fora
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (langRef.current && !langRef.current.contains(event.target)) {
+        setLangOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng)
+    setLangOpen(false)
+  }
+
   return (
     <div className="home">
       {/* Language Selector */}
-      <div className="lang-dropdown">
-        <button className="lang-button">
+      <div className="lang-dropdown" ref={langRef}>
+        <button
+          className="lang-button"
+          onClick={() => setLangOpen(prev => !prev)}
+        >
           {languages[i18n.language]}
         </button>
-        <div className="lang-options">
-          {Object.entries(languages).map(([lng, flag]) =>
-            lng !== i18n.language ? (
-              <button
-                key={lng}
-                className="lang-option"
-                onClick={() => i18n.changeLanguage(lng)}
-              >
-                {flag}
-              </button>
-            ) : null
-          )}
-        </div>
+        {langOpen && (
+          <div className="lang-options">
+            {Object.entries(languages).map(([lng, flag]) =>
+              lng !== i18n.language ? (
+                <button
+                  key={lng}
+                  className="lang-option"
+                  onClick={() => changeLanguage(lng)}
+                >
+                  {flag}
+                </button>
+              ) : null
+            )}
+          </div>
+        )}
       </div>
 
       <h1>{t('title')}</h1>
