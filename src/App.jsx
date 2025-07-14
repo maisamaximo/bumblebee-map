@@ -10,6 +10,7 @@ import Dauphins from './pages/Dauphins'
 import Canyoning from './pages/Canyoning'
 import Paragliding from './pages/Paragliding'
 import Assurances from './pages/Assurances'
+import Restaurants from './pages/Restaurants'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <Route path="/canyoning" element={<Canyoning />} />
       <Route path="/paragliding" element={<Paragliding />} />
       <Route path="/insurance" element={<Assurances />} />
+      <Route path="/restaurants" element={<Restaurants />} />
     </Routes>
   )
 }

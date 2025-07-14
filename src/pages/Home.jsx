@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { FaWhatsapp } from 'react-icons/fa'
+import whatsappIcon from '../assets/whatsapp.png'
 import '../styles/home.css'
 
 import map from '../assets/map.png'
@@ -14,6 +14,7 @@ import iconDolphins from '../assets/icon-dolphin.png'
 import iconCanyoning from '../assets/icon-canyoning.png'
 import iconParagliding from '../assets/icon-rando.png'
 import iconAssurances from '../assets/icon-insurance.png'
+import iconRestaurants from '../assets/icon-insurance.png'
 
 export default function Home() {
   const navigate = useNavigate()
@@ -98,7 +99,12 @@ export default function Home() {
           <img src={iconHiking} alt="" />
           {t('hiking')}
         </button>
+        <button onClick={() => navigate('/restaurants')}>
+          <img src={iconRestaurants} alt="" />
+          {t('restaurants')}
+        </button>
       </div>
+
 
       <div className="activity-icons">
         <div className="activity" onClick={() => navigate('/dolphins')}>
@@ -120,13 +126,12 @@ export default function Home() {
       </div>
 
       <a
-        href="https://wa.me/351000000000"
-        className="whatsapp-button"
+        href="https://wa.me/351968656613?text=Hello%2C%20I%27m%20interested%20in%20more%20information%20about%20the%20Bumblebee%20experience%20🐝"
+        className="whatsapp-button-image"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaWhatsapp size={20} />
-        {t('contact')}
+        <img src={whatsappIcon} alt="WhatsApp" />
       </a>
     </div>
   )
