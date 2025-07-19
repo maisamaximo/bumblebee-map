@@ -1,4 +1,4 @@
-import { FaWhatsapp } from 'react-icons/fa'
+import whatsappIcon from '../assets/whatsapp.png'
 import '../styles/paragliding.css'
 import bgImage from '../assets/paragliding-bg.jpg'
 
@@ -17,13 +17,12 @@ export default function Paragliding() {
       }}
     >
       <a
-        href="https://wa.me/351000000000"
-        className="whatsapp-reserve-button"
+        href="https://wa.me/351961176353?text=Hello%2C%20I%27m%20interested%20in%20more%20information%20about%20Paragliding"
+        className="whatsapp-button-image"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaWhatsapp size={20} />
-        Reserve já
+        <img src={whatsappIcon} alt="WhatsApp" />
       </a>
     </div>
   )

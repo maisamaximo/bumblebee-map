@@ -13,7 +13,7 @@ import iconHiking from '../assets/icon-hiking.png'
 import iconDolphins from '../assets/icon-dolphin.png'
 import iconCanyoning from '../assets/icon-canyoning.png'
 import iconParagliding from '../assets/icon-rando.png'
-import iconAssurances from '../assets/icon-insurance.png'
+import iconInsurance from '../assets/icon-insurance.png'
 import iconRestaurants from '../assets/icon-insurance.png'
 
 export default function Home() {
@@ -30,7 +30,6 @@ export default function Home() {
     de: '🇩🇪'
   }
 
-  // Fecha o menu ao clicar fora
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (langRef.current && !langRef.current.contains(event.target)) {
@@ -48,7 +47,6 @@ export default function Home() {
 
   return (
     <div className="home">
-      {/* Language Selector */}
       <div className="lang-dropdown" ref={langRef}>
         <button
           className="lang-button"
@@ -91,10 +89,6 @@ export default function Home() {
           <img src={iconSpots} alt="" />
           {t('spots')}
         </button>
-        <button onClick={() => navigate('/estrants')}>
-          <img src={iconBag} alt="" />
-          {t('gear')}
-        </button>
         <button onClick={() => navigate('/hiking')}>
           <img src={iconHiking} alt="" />
           {t('hiking')}
@@ -103,8 +97,11 @@ export default function Home() {
           <img src={iconRestaurants} alt="" />
           {t('restaurants')}
         </button>
+        <button onClick={() => navigate('/insurance')}>
+          <img src={iconInsurance} alt="" />
+          {t('insurance')}
+        </button>
       </div>
-
 
       <div className="activity-icons">
         <div className="activity" onClick={() => navigate('/dolphins')}>
@@ -116,17 +113,13 @@ export default function Home() {
           <span>{t('canyoning')}</span>
         </div>
         <div className="activity" onClick={() => navigate('/paragliding')}>
-          <img src={iconParagliding} alt="Hiking Tour" />
-          <span>{t('hikingTour')}</span>
-        </div>
-        <div className="activity" onClick={() => navigate('/insurance')}>
-          <img src={iconAssurances} alt="Insurance" />
-          <span>{t('insurance')}</span>
+          <img src={iconParagliding} alt="Paragliding" />
+          <span>{t('paragliding')}</span>
         </div>
       </div>
 
       <a
-        href="https://wa.me/351968656613?text=Hello%2C%20I%27m%20interested%20in%20more%20information%20about%20the%20Bumblebee%20experience%20🐝"
+        href="https://wa.me/351961176353?text=Hello%2C%20I%27m%20interested%20in%20more%20information%20about%20the%20Bumblebee%20experience%20%F0%9F%90%9D"
         className="whatsapp-button-image"
         target="_blank"
         rel="noopener noreferrer"
