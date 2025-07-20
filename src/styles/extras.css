@@ -1,0 +1,69 @@
+@import "@fontsource/poppins";
+@import "@fontsource/luckiest-guy";
+
+.extras-page {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FEAA2F;
+    padding: 2rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .extras-page h2 {
+    font-size: 2.4rem;
+    color: #694317;
+    margin-bottom: 1.5rem;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  .extras-page p {
+    font-size: 1.2rem;
+    color: #2e474c;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Luckiest Guy', cursive; 
+  }
+
+  .extras-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 2.5rem;
+    text-align: left;
+    max-width: 600px;
+  }
+  
+  .extras-page li {
+    font-size: 1rem;
+    color: #3a2300;
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+  }
+  
+  .extras-page strong {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .whatsapp-book-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #00A453;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 40px;
+    text-decoration: none;
+    gap: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+  }
+  
+  .whatsapp-book-button:hover {
+    transform: scale(1.05);
+  }

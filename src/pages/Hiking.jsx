@@ -1,3 +1,5 @@
+import '../styles/info.css'
+
 export default function Hiking() {
   return (
     <div className="info-page">

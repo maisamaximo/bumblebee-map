@@ -1,6 +1,6 @@
-import whatsappIcon from '../assets/whatsapp.png'
 import '../styles/canyoning.css'
-import bgImage from '../assets/canyoning-bg.jpg' 
+import bgImage from '../assets/3.png' 
+import { Link } from 'react-router-dom'
 
 export default function Canyoning() {
   return (
@@ -8,22 +8,19 @@ export default function Canyoning() {
       className="canyoning-page"
       style={{
         backgroundImage: `url(${bgImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        height: '100vh',
-        width: '100vw',
-        position: 'relative'
       }}
     >
+      <div className="action-buttons">
+      <Link to="/canyoning/photos" className="view-images-button">View Images</Link>
       <a
-        href="https://wa.me/351961176353?text=Hello%2C%20I%27m%20interested%20in%20more%20information%20about%20the%20Canyoning"
-        className="whatsapp-button-image"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={whatsappIcon} alt="WhatsApp" />
-      </a>
+          className="whatsapp-book-button"
+          href="https://wa.me/351961176353?text=Hi!%20I%20want%20to%20book%20some%20extras%20for%20my%20Bumblebee%20trip%20🐝"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Book now
+        </a>
+      </div>
     </div>
   )
 }

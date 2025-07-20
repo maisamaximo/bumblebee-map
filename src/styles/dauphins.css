@@ -1,26 +1,59 @@
 .dauphins-page {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-  }
-  
-  .whatsapp-reserve-button {
-    margin-bottom: 30px;
-    background-color: #25d366;
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 1rem;
-    transition: background 0.2s ease;
-  }
-  
-  .whatsapp-reserve-button:hover {
-    background-color: #1ebe5d;
-  }
-  
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2rem 2rem 1rem 2rem;
+  box-sizing: border-box;
+}
+
+/* Linha com dois botões lado a lado */
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+/* Botão "View Images" */
+.view-images-button {
+  background-color: #fff5cc;
+  color: #2e474c;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 40px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.view-images-button:hover {
+  background-color: #ffea87;
+  transform: scale(1.05);
+}
+
+/* Botão WhatsApp */
+.whatsapp-book-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #00A453;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 40px;
+  text-decoration: none;
+  gap: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.whatsapp-book-button:hover {
+  transform: scale(1.05);
+  background-color: #008a46;
+}

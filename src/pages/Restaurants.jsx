@@ -1,3 +1,5 @@
+import '../styles/info.css'
+
 export default function Restaurants() {
   return (
     <div className="info-page">

@@ -1,26 +1,39 @@
 .paragliding-page {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2rem 2rem 1rem 2rem;
+  box-sizing: border-box;
+  }
+  .view-images-button:hover {
+    background-color: #ffea87;
+    transform: scale(1.05);
   }
   
-  .whatsapp-reserve-button {
-    margin-bottom: 30px;
-    background-color: #25d366;
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    display: flex;
+  /* Botão WhatsApp */
+  .whatsapp-book-button {
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    background-color: #00A453;
+    color: white;
+    font-weight: bold;
     font-size: 1rem;
-    transition: background 0.2s ease;
+    padding: 0.8rem 1.5rem;
+    border-radius: 40px;
+    text-decoration: none;
+    gap: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, background-color 0.2s ease;
   }
   
-  .whatsapp-reserve-button:hover {
-    background-color: #1ebe5d;
+  .whatsapp-book-button:hover {
+    transform: scale(1.05);
+    background-color: #008a46;
   }
   

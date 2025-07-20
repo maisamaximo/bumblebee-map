@@ -23,7 +23,7 @@ export default function Assurances() {
         </ul>
         <p className="coverage-title">🛡️ Covers:</p>
         <ul>
-          <li>✔️ Third-party liability only</li>
+          <li>✅ Third-party liability only</li>
           <li>❌ No coverage for damage to the van, windows, tires</li>
           <li>❌ No roadside assistance</li>
           <li>❌ No second driver</li>
@@ -48,10 +48,10 @@ export default function Assurances() {
         </ul>
         <p className="coverage-title">🛡️ Covers:</p>
         <ul>
-          <li>✔️ Glass breakage</li>
-          <li>✔️ Tires</li>
-          <li>✔️ 24/7 roadside assistance</li>
-          <li>✔️ Third-party liability</li>
+          <li>✅ Glass breakage</li>
+          <li>✅ Tires</li>
+          <li>✅ 24/7 roadside assistance</li>
+          <li>✅ Third-party liability</li>
         </ul>
         <p className="note">Perfect for those who want peace of mind without breaking the bank — this plan covers the most frequent issues on the road.</p>
       </div>
@@ -72,13 +72,13 @@ export default function Assurances() {
         </ul>
         <p className="coverage-title">🛡️ Covers:</p>
         <ul>
-          <li>✔️ Full vehicle damage (inside & outside)</li>
-          <li>✔️ Glass breakage</li>
-          <li>✔️ Tires</li>
-          <li>✔️ Natural disasters</li>
-          <li>✔️ 24/7 travel assistance</li>
-          <li>✔️ Second driver</li>
-          <li>✔️ Third-party liability</li>
+          <li>✅ Full vehicle damage (inside & outside)</li>
+          <li>✅ Glass breakage</li>
+          <li>✅ Tires</li>
+          <li>✅ Natural disasters</li>
+          <li>✅ 24/7 travel assistance</li>
+          <li>✅ Second driver</li>
+          <li>✅ Third-party liability</li>
         </ul>
         <p className="note">The most comprehensive plan – ideal for those who want to drive fully covered with no financial surprises, even in the worst-case scenario.</p>
       </div>

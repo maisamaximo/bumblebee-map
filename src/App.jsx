@@ -12,6 +12,7 @@ import Canyoning from './pages/Canyoning'
 import Paragliding from './pages/Paragliding'
 import Assurances from './pages/Assurances'
 import Restaurants from './pages/Restaurants'
+import ActivityGallery from './components/ActivityGallery'
 
 export default function App() {
   return (
@@ -29,7 +30,10 @@ export default function App() {
         <Route path="/paragliding" element={<Paragliding />} />
         <Route path="/insurance" element={<Assurances />} />
         <Route path="/restaurants" element={<Restaurants />} />
-      </Routes>
+        <Route path="/dolphins/photos" element={<ActivityGallery />} />
+        <Route path="/canyoning/photos" element={<ActivityGallery />} />
+        <Route path="/paragliding/photos" element={<ActivityGallery />} />
+       </Routes>
     </>
   )
 }

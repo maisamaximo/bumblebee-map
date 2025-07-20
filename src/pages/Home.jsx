@@ -8,13 +8,12 @@ import map from '../assets/map.png'
 import iconPhotos from '../assets/icon-photos.png'
 import iconExtras from '../assets/icon-extras.png'
 import iconSpots from '../assets/icon-spots.png'
-import iconBag from '../assets/icon-bag.png'
 import iconHiking from '../assets/icon-hiking.png'
 import iconDolphins from '../assets/icon-dolphin.png'
 import iconCanyoning from '../assets/icon-canyoning.png'
-import iconParagliding from '../assets/icon-rando.png'
+import iconParagliding from '../assets/icon-paragliding.png'
 import iconInsurance from '../assets/icon-insurance.png'
-import iconRestaurants from '../assets/icon-insurance.png'
+import iconRestaurants from '../assets/icon-restaurant.png'
 
 export default function Home() {
   const navigate = useNavigate()
