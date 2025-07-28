@@ -102,6 +102,8 @@ export default function Home() {
         </button>
       </div>
 
+      <h2 className="experience-subtitle">{t('bookYourExperience')}</h2>
+
       <div className="activity-icons">
         <div className="activity" onClick={() => navigate('/dolphins')}>
           <img src={iconDolphins} alt="Dolphins" />
