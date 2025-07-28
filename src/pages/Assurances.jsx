@@ -18,8 +18,8 @@ export default function Assurances() {
         <div className="label">🟡 BASIC PLAN – Already Included</div>
         <ul>
           <li>💶 Cost: €0 / day</li>
-          <li>🔒 Security Deposit: €1,000</li>
-          <li>💥 Deductible: €1,000</li>
+          <li>🔒 Security Deposit: €1000</li>
+          <li>💥 Deductible: €1000</li>
         </ul>
         <p className="coverage-title">🛡️ Covers:</p>
         <ul>
@@ -41,7 +41,6 @@ export default function Assurances() {
         </ul>
         <p className="coverage-title">💥 Deductibles:</p>
         <ul>
-          <li>* Vehicle damage: €500</li>
           <li>* Glass breakage: €150</li>
           <li>* Tire damage: €50</li>
           <li>* Roadside assistance: €0</li>
@@ -66,13 +65,14 @@ export default function Assurances() {
         </ul>
         <p className="coverage-title">💥 Deductibles:</p>
         <ul>
-          <li>* Vehicle, windows, tires: €0</li>
+          <li>* Vehicle damage: €750</li>
+          <li>* Windows and tires: €0</li>
           <li>* Natural disaster: €250</li>
           <li>* Roadside assistance: €0</li>
         </ul>
         <p className="coverage-title">🛡️ Covers:</p>
         <ul>
-          <li>✅ Full vehicle damage (inside & outside)</li>
+          <li>✅ Vehicle damage (inside & outside)</li>
           <li>✅ Glass breakage</li>
           <li>✅ Tires</li>
           <li>✅ Natural disasters</li>
