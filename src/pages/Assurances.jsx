@@ -69,7 +69,7 @@ export default function Assurances() {
         <ul>
           <li>* Vehicle damage: €750</li>
           <li>* Windows and tires: €0</li>
-          <li>* Natural disaster: €250</li>
+          <li>* Natural disaster: €350</li>
           <li>* Roadside assistance: €0</li>
         </ul>
         <p className="coverage-title">🛡️ Covers:</p>
