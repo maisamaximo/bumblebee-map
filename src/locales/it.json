@@ -1,15 +1,126 @@
 {
-    "title": "Bumblebee Explorations",
-    "subtitle": "Una guida di viaggio interattiva",
-    "photos": "Guarda altre foto",
-    "extras": "Scopri gli extra",
-    "spots": "Scopri i luoghi",
-    "gear": "Aggiungi attrezzatura",
-    "hiking": "Escursionismo",
-    "dolphins": "Delfini",
-    "canyoning": "Canyoning",
-    "hikingTour": "Tour escursionistico",
-    "insurance": "Assicurazione",
-    "contact": "Contattaci"
+  "title": "Esplorazioni Bumblebee",
+  "subtitle": "Una guida di viaggio interattiva",
+  "photos-home": "Foto",
+  "extras-home": "Extra",
+  "spots-home": "Luoghi",
+  "gear": "Aggiungi attrezzatura",
+  "hiking-home": "Escursioni",
+  "dolphins": "Delfini",
+  "canyoning": "Canyoning",
+  "paragliding": "Parapendio",
+  "hikingTour": "Tour escursionistico",
+  "insurance": "Assicurazione",
+  "restaurants-home": "Ristoranti",
+  "contact": "Contattaci",
+  "bookYourExperience": "Prenota la tua esperienza",
+
+  "assurances": {
+    "title": "Pacchetti sicurezza – Scegli il tuo livello di protezione",
+    "intro": "Ogni noleggio include il PIANO BASE, ma per un'esperienza più fluida e sicura, soprattutto su un'isola con strade strette e aree remote, la maggior parte dei viaggiatori sceglie uno degli upgrade opzionali. Tutti gli extra sono pagabili in loco (contanti o carta) alla consegna del van.",
+
+    "coversTitle": "🛡️ Copre:",
+    "deductiblesTitle": "💥 Franchigie:",
+
+    "basic": {
+      "label": "🟡 PIANO BASE – Già incluso",
+      "cost": "💶 Costo: 0 € / giorno",
+      "deposit": "🔒 Deposito cauzionale: 1000 €",
+      "deductible": "💥 Franchigia: 1000 €",
+      "cover1": "✅ Responsabilità civile verso terzi",
+      "cover2": "❌ Nessuna copertura per danni al van, vetri o pneumatici",
+      "cover3": "❌ Nessuna assistenza stradale",
+      "cover4": "❌ Nessun secondo conducente",
+      "note": "Copertura legale minima – eventuali danni o assistenza saranno a tuo carico."
+    },
+
+    "comfort": {
+      "label": "🔵 PIANO COMFORT – 19,90 € / giorno",
+      "cost": "💶 Costo: 19,90 € / giorno",
+      "deposit": "🔒 Deposito cauzionale: 750 €",
+      "deductible1": "* Danni al veicolo: 1000 €",
+      "deductible2": "* Rottura vetri: 150 €",
+      "deductible3": "* Danni ai pneumatici: 50 €",
+      "deductible4": "* Assistenza stradale: 0 €",
+      "cover1": "✅ Rottura vetri",
+      "cover2": "✅ Pneumatici",
+      "cover3": "✅ Assistenza stradale 24/7",
+      "cover4": "✅ Responsabilità civile",
+      "cover5": "✅ Danni al veicolo (solo esterni)",
+      "note": "Perfetto per chi cerca serenità senza spendere troppo — questo piano copre i problemi più comuni in viaggio."
+    },
+
+    "serenity": {
+      "label": "🟣 PIANO SERENITÀ – 29,90 € / giorno",
+      "cost": "💶 Costo: 29,90 € / giorno",
+      "deposit": "🔒 Deposito cauzionale: 500 €",
+      "deductible1": "* Danni al veicolo: 750 €",
+      "deductible2": "* Vetri e pneumatici: 0 €",
+      "deductible3": "* Disastri naturali: 350 €",
+      "deductible4": "* Assistenza stradale: 0 €",
+      "cover1": "✅ Danni al veicolo (interni ed esterni)",
+      "cover2": "✅ Rottura vetri",
+      "cover3": "✅ Pneumatici",
+      "cover4": "✅ Disastri naturali",
+      "cover5": "✅ Assistenza viaggio 24/7",
+      "cover6": "✅ Secondo conducente",
+      "cover7": "✅ Responsabilità civile",
+      "note": "Il piano più completo – ideale per chi vuole viaggiare coperto senza sorprese finanziarie, anche nei peggiori scenari."
+    },
+
+    "finalNote": "📍 Nota: il piano assicurativo viene scelto il giorno della partenza, durante la consegna delle chiavi e la firma del contratto.",
+    "airportNote": "✈️ E non dimenticare: offro anche il servizio di transfer da/per l’aeroporto a 25 € per tratta. Inviami i dettagli del tuo volo così posso organizzarmi."
+  },
+
+  "extras": {
+    "title": "🎒 Extra",
+    "description": "Tutti gli extra sono disponibili su richiesta — ti preghiamo di prenotarli in anticipo così potremo prepararli per il tuo viaggio!",
+    "airportArrival": "🚕 Transfer aeroporto (arrivo): 25 €",
+    "airportDeparture": "🚕 Transfer aeroporto (partenza): 25 €",
+    "polaroid": "📸 Polaroid + rullino da 10 scatti: 20 € oppure 7,50 € solo la fotocamera",
+    "surfboard": "🏄‍♂️ Tavola da surf: 15 €/giorno – 50 €/viaggio",
+    "toilet": "🚽 WC chimico: 20 €",
+    "gas": "⛽️ Bombola del gas: 8 €",
+    "projector": "📽️ Proiettore: 25 €",
+    "kayak": "🛶 Kayak: 30 €/giorno – 80 €/viaggio",
+    "paddle": "💦 Paddleboard: 20 €/giorno – 60 €/viaggio",
+    "fishing": "🎣 Kit da pesca: 15 €/giorno – 40 €/viaggio",
+    "snorkel": "🤿 Kit snorkeling: 10 €/giorno – 30 €/viaggio",
+    "childSeat": "👧🏼 Seggiolino per bambini: 30 €",
+    "bookNow": "Prenota ora"
+  },
+
+  "hiking": {
+    "title": "🥾 Escursioni a Madeira",
+    "description1": "Madeira è un paradiso per gli escursionisti. Dai un’occhiata a dei bellissimi sentieri per esplorare l’isola!",
+    "description2": "Se cerchi un’esperienza guidata, parla con Elvio – è il migliore! Conosce Madeira come nessun altro e ama mostrarla nel modo più autentico e culturale possibile.",
+    "link": "Scopri i sentieri 🌿"
+  },
+
+  "restaurants": {
+    "title": "🍽️ Ristoranti",
+    "description": "Ecco una selezione accurata di ristoranti dove puoi gustare il meglio della cucina madeirense. Dai sapori locali ai luoghi accoglienti con viste mozzafiato, abbiamo semplificato tutto per te!",
+    "link": "Scopri i ristoranti 🍴"
+  },
+
+  "spots": {
+    "title": "🌄 Luoghi sicuri dove pernottare",
+    "description": "Madeira offre paesaggi mozzafiato, ma non tutti sono adatti al pernottamento. Per dormire in tranquillità e rispettare la natura, abbiamo selezionato alcuni posti sicuri dove sei il benvenuto per parcheggiare e riposare.",
+    "rule1": "🚫 Niente fuochi da campo se non esplicitamente permesso",
+    "rule2": "🧼 Lascia sempre il posto più pulito di come l’hai trovato",
+    "rule3": "🚿 Rispetta la privacy e non farti la doccia in pubblico",
+    "rule4": "🧘🏽 Usa il buon senso e goditi l’isola con consapevolezza",
+    "link": "Vedi i luoghi sicuri 🗺️"
+  },
+
+  "photos": {
+    "title": "📷 Ricordi di viaggio",
+    "caption1": "Relax nel van",
+    "caption2": "I migliori ricordi con gli amici",
+    "caption3": "Sorridi! 🐮",
+    "caption4": "Facciamo kayak intorno all’isola!",
+    "caption5": "Bumblebee splende 💛",
+    "caption6": "Mattine silenziose, panorami mozzafiato",
+    "caption7": "Caffè con vista ☕🌄"
   }
-  
+}

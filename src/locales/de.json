@@ -1,15 +1,126 @@
 {
-    "title": "Bumblebee Explorations",
-    "subtitle": "Ein interaktiver Reiseführer",
-    "photos": "Weitere Fotos ansehen",
-    "extras": "Extras entdecken",
-    "spots": "Orte entdecken",
-    "gear": "Ausrüstung hinzufügen",
-    "hiking": "Wandern",
-    "dolphins": "Delfine",
-    "canyoning": "Canyoning",
-    "hikingTour": "Wandertour",
-    "insurance": "Versicherung",
-    "contact": "Kontaktiere uns"
+  "title": "Bumblebee-Erkundungen",
+  "subtitle": "Ein interaktiver Reiseführer",
+  "photos-home": "Fotos",
+  "extras-home": "Extras",
+  "spots-home": "Stellplätze",
+  "gear": "Ausrüstung hinzufügen",
+  "hiking-home": "Wandern",
+  "dolphins": "Delfine",
+  "canyoning": "Canyoning",
+  "paragliding": "Gleitschirmfliegen",
+  "hikingTour": "Wandertour",
+  "insurance": "Versicherung",
+  "restaurants-home": "Restaurants",
+  "contact": "Kontakt",
+  "bookYourExperience": "Buche dein Erlebnis",
+
+  "assurances": {
+    "title": "Sicher unterwegs – Wähle dein Schutzpaket",
+    "intro": "Jede Miete beinhaltet das BASIS-PAKET. Für eine entspanntere und sicherere Erfahrung – besonders auf engen Straßen und abgelegenen Gebieten – entscheiden sich die meisten Reisenden für eines der optionalen Upgrades. Alle Extras sind bei Übergabe vor Ort zahlbar (bar oder Karte).",
+
+    "coversTitle": "🛡️ Deckt ab:",
+    "deductiblesTitle": "💥 Selbstbeteiligung:",
+
+    "basic": {
+      "label": "🟡 BASIS-PAKET – Bereits enthalten",
+      "cost": "💶 Kosten: 0 € / Tag",
+      "deposit": "🔒 Kaution: 1000 €",
+      "deductible": "💥 Selbstbeteiligung: 1000 €",
+      "cover1": "✅ Nur Haftpflichtversicherung",
+      "cover2": "❌ Kein Schutz bei Schäden am Van, Glas oder Reifen",
+      "cover3": "❌ Keine Pannenhilfe",
+      "cover4": "❌ Kein zweiter Fahrer",
+      "note": "Minimaler gesetzlicher Schutz – alle Schäden oder Hilfen gehen auf eigenes Risiko."
+    },
+
+    "comfort": {
+      "label": "🔵 KOMFORT-PAKET – 19,90 € / Tag",
+      "cost": "💶 Kosten: 19,90 € / Tag",
+      "deposit": "🔒 Kaution: 750 €",
+      "deductible1": "* Fahrzeugschaden: 1000 €",
+      "deductible2": "* Glasbruch: 150 €",
+      "deductible3": "* Reifenschaden: 50 €",
+      "deductible4": "* Pannenhilfe: 0 €",
+      "cover1": "✅ Glasbruch",
+      "cover2": "✅ Reifen",
+      "cover3": "✅ 24/7 Pannenhilfe",
+      "cover4": "✅ Haftpflichtversicherung",
+      "cover5": "✅ Fahrzeugschäden (nur außen)",
+      "note": "Ideal für ruhige Reisen ohne Stress – deckt die häufigsten Probleme auf der Straße ab."
+    },
+
+    "serenity": {
+      "label": "🟣 VOLL-SORGLOS-PAKET – 29,90 € / Tag",
+      "cost": "💶 Kosten: 29,90 € / Tag",
+      "deposit": "🔒 Kaution: 500 €",
+      "deductible1": "* Fahrzeugschaden: 750 €",
+      "deductible2": "* Glas und Reifen: 0 €",
+      "deductible3": "* Naturkatastrophen: 350 €",
+      "deductible4": "* Pannenhilfe: 0 €",
+      "cover1": "✅ Fahrzeugschäden (innen & außen)",
+      "cover2": "✅ Glasbruch",
+      "cover3": "✅ Reifen",
+      "cover4": "✅ Naturkatastrophen",
+      "cover5": "✅ 24/7 Reiseassistenz",
+      "cover6": "✅ Zweiter Fahrer",
+      "cover7": "✅ Haftpflichtversicherung",
+      "note": "Das umfassendste Paket – perfekt für alle, die voll abgesichert unterwegs sein möchten, selbst im schlimmsten Fall."
+    },
+
+    "finalNote": "📍 Hinweis: Das Versicherungspaket wird am Tag der Abreise bei der Schlüsselübergabe und Vertragsunterzeichnung ausgewählt.",
+    "airportNote": "✈️ Und nicht vergessen: Ich biete auch einen Flughafentransfer für 25 € pro Strecke an. Sende mir einfach deine Flugdaten, damit ich alles organisieren kann."
+  },
+
+  "extras": {
+    "title": "🎒 Extras",
+    "description": "Alle Extras sind auf Anfrage verfügbar – bitte buche sie im Voraus, damit wir alles für deine Reise vorbereiten können!",
+    "airportArrival": "🚕 Flughafentransfer (Ankunft): 25 €",
+    "airportDeparture": "🚕 Flughafentransfer (Abreise): 25 €",
+    "polaroid": "📸 Polaroid + 10er-Film: 20 € oder 7,50 € nur Kamera",
+    "surfboard": "🏄‍♂️ Surfbrett: 15 €/Tag – 50 €/Reise",
+    "toilet": "🚽 Trockentoilette: 20 €",
+    "gas": "⛽️ Gasflasche: 8 €",
+    "projector": "📽️ Beamer: 25 €",
+    "kayak": "🛶 Kajak: 30 €/Tag – 80 €/Reise",
+    "paddle": "💦 Paddleboard: 20 €/Tag – 60 €/Reise",
+    "fishing": "🎣 Angelset: 15 €/Tag – 40 €/Reise",
+    "snorkel": "🤿 Schnorchelset: 10 €/Tag – 30 €/Reise",
+    "childSeat": "👧🏼 Kindersitz: 30 €",
+    "bookNow": "Jetzt buchen"
+  },
+
+  "hiking": {
+    "title": "🥾 Wandern auf Madeira",
+    "description1": "Madeira ist ein Paradies für Wanderfreunde. Entdecke einige wunderschöne Wanderwege auf der Insel!",
+    "description2": "Wenn du eine geführte Tour suchst, sprich mit Elvio – er ist der Beste! Er kennt Madeira wie seine Westentasche und liebt es, die Insel auf authentische und kulturelle Weise zu zeigen.",
+    "link": "Wanderwege ansehen 🌿"
+  },
+
+  "restaurants": {
+    "title": "🍽️ Restaurants",
+    "description": "Hier ist eine handverlesene Auswahl an Restaurants, in denen du die besten Spezialitäten Madeiras genießen kannst. Von lokalen Köstlichkeiten bis hin zu gemütlichen Orten mit atemberaubender Aussicht – wir machen es dir leicht!",
+    "link": "Restaurants entdecken 🍴"
+  },
+
+  "spots": {
+    "title": "🌄 Sichere Übernachtungsplätze",
+    "description": "Madeira bietet atemberaubende Orte, aber nicht alle sind für Übernachtungen geeignet. Um in Ruhe zu schlafen und die Natur zu respektieren, haben wir einige sichere Plätze ausgewählt, an denen du gerne parken und übernachten kannst.",
+    "rule1": "🚫 Kein Lagerfeuer, es sei denn ausdrücklich erlaubt",
+    "rule2": "🧼 Hinterlasse den Ort sauberer, als du ihn vorgefunden hast",
+    "rule3": "🚿 Respektiere die Privatsphäre und dusche nicht in der Öffentlichkeit",
+    "rule4": "🧘🏽 Verwende gesunden Menschenverstand und genieße die Insel bewusst",
+    "link": "Sichere Plätze ansehen 🗺️"
+  },
+
+  "photos": {
+    "title": "📷 Reiseerinnerungen",
+    "caption1": "Chill-Zeit im Van",
+    "caption2": "Beste Erinnerungen mit Freunden",
+    "caption3": "Lächeln bitte! 🐮",
+    "caption4": "Lass uns die Insel mit dem Kajak erkunden!",
+    "caption5": "Bumblebee glänzt 💛",
+    "caption6": "Stille Morgen, atemberaubende Aussichten",
+    "caption7": "Kaffee mit Aussicht ☕🌄"
   }
-  
+}

@@ -1,15 +1,126 @@
 {
-    "title": "Bumblebee Explorations",
-    "subtitle": "Un guide de voyage interactif",
-    "photos": "Voir davantage de photos",
-    "extras": "Découvrir des extras",
-    "spots": "Découvrir des spots",
-    "gear": "Ajouter du matériel",
-    "hiking": "Randonnée",
-    "dolphins": "Dauphins",
-    "canyoning": "Canyoning",
-    "hikingTour": "Randonnée guidée",
-    "insurance": "Assurances",
-    "contact": "Nous contacter"
+  "title": "Explorations Bumblebee",
+  "subtitle": "Un guide de voyage interactif",
+  "photos-home": "Photos",
+  "extras-home": "Extras",
+  "spots-home": "Lieux",
+  "gear": "Ajouter équipement",
+  "hiking-home": "Randonnée",
+  "dolphins": "Dauphins",
+  "canyoning": "Canyoning",
+  "paragliding": "Parapente",
+  "hikingTour": "Circuit de randonnée",
+  "insurance": "Assurance",
+  "restaurants-home": "Restaurants",
+  "contact": "Contactez-nous",
+  "bookYourExperience": "Réservez votre expérience",
+
+  "assurances": {
+    "title": "Forfaits de sécurité – Choisissez votre niveau de protection",
+    "intro": "Chaque location inclut le PLAN DE BASE, mais pour une expérience plus fluide et plus sûre, surtout sur une île avec des routes étroites et des zones isolées, la plupart des voyageurs choisissent l'une des options supplémentaires. Tous les extras sont payables sur place (en espèces ou carte) lors de la remise du van.",
+
+    "coversTitle": "🛡️ Couvre :",
+    "deductiblesTitle": "💥 Franchise :",
+
+    "basic": {
+      "label": "🟡 PLAN DE BASE – Déjà inclus",
+      "cost": "💶 Coût : 0 € / jour",
+      "deposit": "🔒 Caution : 1000 €",
+      "deductible": "💥 Franchise : 1000 €",
+      "cover1": "✅ Responsabilité civile uniquement",
+      "cover2": "❌ Pas de couverture pour dommages au van, vitres, pneus",
+      "cover3": "❌ Pas d’assistance routière",
+      "cover4": "❌ Pas de deuxième conducteur",
+      "note": "Une couverture légale minimale – tout dommage ou assistance sera à votre charge."
+    },
+
+    "comfort": {
+      "label": "🔵 PLAN CONFORT – 19,90 € / jour",
+      "cost": "💶 Coût : 19,90 € / jour",
+      "deposit": "🔒 Caution : 750 €",
+      "deductible1": "* Dommages au véhicule : 1000 €",
+      "deductible2": "* Casse de vitre : 150 €",
+      "deductible3": "* Dommages pneus : 50 €",
+      "deductible4": "* Assistance routière : 0 €",
+      "cover1": "✅ Casse de vitre",
+      "cover2": "✅ Pneus",
+      "cover3": "✅ Assistance routière 24/7",
+      "cover4": "✅ Responsabilité civile",
+      "cover5": "✅ Dommages au véhicule (extérieur seulement)",
+      "note": "Parfait pour ceux qui veulent l’esprit tranquille sans se ruiner — ce plan couvre les problèmes les plus courants sur la route."
+    },
+
+    "serenity": {
+      "label": "🟣 PLAN SÉRÉNITÉ – 29,90 € / jour",
+      "cost": "💶 Coût : 29,90 € / jour",
+      "deposit": "🔒 Caution : 500 €",
+      "deductible1": "* Dommages au véhicule : 750 €",
+      "deductible2": "* Vitres et pneus : 0 €",
+      "deductible3": "* Catastrophe naturelle : 350 €",
+      "deductible4": "* Assistance routière : 0 €",
+      "cover1": "✅ Dommages au véhicule (intérieur et extérieur)",
+      "cover2": "✅ Casse de vitre",
+      "cover3": "✅ Pneus",
+      "cover4": "✅ Catastrophes naturelles",
+      "cover5": "✅ Assistance voyage 24/7",
+      "cover6": "✅ Deuxième conducteur",
+      "cover7": "✅ Responsabilité civile",
+      "note": "Le plan le plus complet – idéal pour ceux qui veulent rouler en toute sérénité, même en cas de pépin."
+    },
+
+    "finalNote": "📍 Remarque : le plan d’assurance est choisi le jour du départ, lors de la remise des clés et la signature du contrat.",
+    "airportNote": "✈️ N’oubliez pas : je propose également un service de transfert aéroport pour 25 € par trajet. Envoyez-moi simplement vos horaires de vol pour que je puisse m’organiser."
+  },
+
+  "extras": {
+    "title": "🎒 Extras",
+    "description": "Tous les extras sont disponibles sur demande — merci de les réserver à l’avance pour que nous puissions tout préparer pour votre voyage !",
+    "airportArrival": "🚕 Transfert aéroport (arrivée) : 25 €",
+    "airportDeparture": "🚕 Transfert aéroport (départ) : 25 €",
+    "polaroid": "📸 Polaroid + pellicule de 10 photos : 20 € ou 7,50 € pour l’appareil seul",
+    "surfboard": "🏄‍♂️ Planche de surf : 15 €/jour – 50 €/voyage",
+    "toilet": "🚽 Toilette sèche : 20 €",
+    "gas": "⛽️ Bouteille de gaz : 8 €",
+    "projector": "📽️ Vidéoprojecteur : 25 €",
+    "kayak": "🛶 Kayak : 30 €/jour – 80 €/voyage",
+    "paddle": "💦 Paddleboard : 20 €/jour – 60 €/voyage",
+    "fishing": "🎣 Kit de pêche : 15 €/jour – 40 €/voyage",
+    "snorkel": "🤿 Kit de plongée : 10 €/jour – 30 €/voyage",
+    "childSeat": "👧🏼 Siège enfant : 30 €",
+    "bookNow": "Réserver maintenant"
+  },
+
+  "hiking": {
+    "title": "🥾 Randonnée à Madère",
+    "description1": "Madère est un paradis pour les randonneurs. Découvrez quelques beaux sentiers pour explorer l’île !",
+    "description2": "Si vous cherchez une expérience guidée, contactez Elvio – c’est le meilleur ! Il connaît l’île comme sa poche et adore la faire découvrir de manière authentique et culturelle.",
+    "link": "Voir les sentiers de randonnée 🌿"
+  },
+
+  "restaurants": {
+    "title": "🍽️ Restaurants",
+    "description": "Voici une sélection de restaurants où vous pourrez déguster le meilleur de la cuisine madérienne. Des saveurs locales aux endroits chaleureux avec vue magnifique, on vous facilite la vie !",
+    "link": "Découvrir les restaurants 🍴"
+  },
+
+  "spots": {
+    "title": "🌄 Endroits sûrs pour passer la nuit",
+    "description": "Madère regorge de lieux magnifiques, mais tous ne sont pas adaptés pour y passer la nuit. Pour dormir en paix et respecter la nature, nous avons sélectionné quelques endroits sûrs où vous pouvez stationner et vous reposer.",
+    "rule1": "🚫 Pas de feu de camp sauf indication contraire",
+    "rule2": "🧼 Laissez toujours l’endroit plus propre que vous ne l’avez trouvé",
+    "rule3": "🚿 Respectez la vie privée et ne vous douchez pas en public",
+    "rule4": "🧘🏽 Faites preuve de bon sens et profitez de l’île en pleine conscience",
+    "link": "Voir les endroits sûrs 🗺️"
+  },
+
+  "photos": {
+    "title": "📷 Souvenirs de voyage",
+    "caption1": "Moment détente dans le van",
+    "caption2": "Meilleurs souvenirs entre amis",
+    "caption3": "Souriez ! 🐮",
+    "caption4": "C’est parti pour du kayak autour de l’île !",
+    "caption5": "Bumblebee brille 💛",
+    "caption6": "Matins silencieux, vues à couper le souffle",
+    "caption7": "Café avec vue ☕🌄"
   }
-  
+}
