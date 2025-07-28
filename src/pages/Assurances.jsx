@@ -41,6 +41,7 @@ export default function Assurances() {
         </ul>
         <p className="coverage-title">💥 Deductibles:</p>
         <ul>
+        <li>* Vehicle damage: €1000</li>
           <li>* Glass breakage: €150</li>
           <li>* Tire damage: €50</li>
           <li>* Roadside assistance: €0</li>
@@ -51,6 +52,7 @@ export default function Assurances() {
           <li>✅ Tires</li>
           <li>✅ 24/7 roadside assistance</li>
           <li>✅ Third-party liability</li>
+          <li>✅ Vehicle damage (outside only)</li>
         </ul>
         <p className="note">Perfect for those who want peace of mind without breaking the bank — this plan covers the most frequent issues on the road.</p>
       </div>
