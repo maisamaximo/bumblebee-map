@@ -1,26 +1,27 @@
 import '../styles/extras.css'
 import { FaWhatsapp } from 'react-icons/fa'
+import { useTranslation } from 'react-i18next'
 
 export default function Extras() {
+  const { t } = useTranslation()
+
   return (
     <div className="extras-page">
-      <h2>🎒 Extras</h2>
-      <p>
-        All extras are available upon request — please book them in advance so we can prepare everything for your trip!
-      </p>
+      <h2>{t('extras.title')}</h2>
+      <p>{t('extras.description')}</p>
       <ul>
-        <li>🚕 Airport transfer (arrival): <strong>€25</strong></li>
-        <li>🚕 Airport transfer (departure): <strong>€25</strong></li>
-        <li>📸 Polaroid + roll of 10 shots: <strong>€20</strong> or <strong>€7.50</strong> for the camera only</li>
-        <li>🏄‍♂️ Surfboard: <strong>€15/day</strong> – <strong>€50/trip</strong></li>
-        <li>🚽 Dry toilet: <strong>€20</strong></li>
-        <li>⛽️ Gas bottle: <strong>€8</strong></li>
-        <li>📽️ Video projector: <strong>€25</strong></li>
-        <li>🛶 Kayak: <strong>€30/day</strong> – <strong>€80/trip</strong></li>
-        <li>💦 Paddleboard: <strong>€20/day</strong> – <strong>€60/trip</strong></li>
-        <li>🎣 Fishing kit: <strong>€15/day</strong> – <strong>€40/trip</strong></li>
-        <li>🤿 Snorkeling kit: <strong>€10/day</strong> – <strong>€30/trip</strong></li>
-        <li>👧🏼 Child seat: <strong>€30</strong></li>
+        <li>{t('extras.airportArrival')}</li>
+        <li>{t('extras.airportDeparture')}</li>
+        <li>{t('extras.polaroid')}</li>
+        <li>{t('extras.surfboard')}</li>
+        <li>{t('extras.toilet')}</li>
+        <li>{t('extras.gas')}</li>
+        <li>{t('extras.projector')}</li>
+        <li>{t('extras.kayak')}</li>
+        <li>{t('extras.paddle')}</li>
+        <li>{t('extras.fishing')}</li>
+        <li>{t('extras.snorkel')}</li>
+        <li>{t('extras.childSeat')}</li>
       </ul>
       <a
         className="whatsapp-book-button"
@@ -29,7 +30,7 @@ export default function Extras() {
         rel="noopener noreferrer"
       >
         <FaWhatsapp size={22} />
-        Book now
+        {t('extras.bookNow')}
       </a>
     </div>
   )

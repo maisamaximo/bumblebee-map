@@ -1,23 +1,21 @@
 import '../styles/info.css'
+import { useTranslation } from 'react-i18next'
 
 export default function Hiking() {
+  const { t } = useTranslation()
+
   return (
     <div className="info-page">
-      <h2>🥾 Hiking in Madeira</h2>
-      <p>
-        Madeira is a paradise for hikers. Check out some beautiful trails to explore the island!
-      </p>
-      <p>
-        If you’re looking for a guided experience, talk to Elvio – he’s the best! He knows Madeira like no one else
-        and loves showing the island in the most authentic and cultural way possible.
-      </p>
+      <h2>{t('hiking.title')}</h2>
+      <p>{t('hiking.description1')}</p>
+      <p>{t('hiking.description2')}</p>
       <a
         href="https://maps.app.goo.gl/V7wo21vwFTdCrEQ79?g_st=i"
         target="_blank"
         rel="noopener noreferrer"
         className="info-link"
       >
-        See Hiking Trails 🌿
+        {t('hiking.link')}
       </a>
     </div>
   )

@@ -78,23 +78,23 @@ export default function Home() {
       <div className="button-grid">
         <button onClick={() => navigate('/photos')}>
           <img src={iconPhotos} alt="" />
-          {t('photos')}
+          {t('photos-home')}
         </button>
         <button onClick={() => navigate('/extras')}>
           <img src={iconExtras} alt="" />
-          {t('extras')}
+          {t('extras-home')}
         </button>
         <button onClick={() => navigate('/spots')}>
           <img src={iconSpots} alt="" />
-          {t('spots')}
+          {t('spots-home')}
         </button>
         <button onClick={() => navigate('/hiking')}>
           <img src={iconHiking} alt="" />
-          {t('hiking')}
+          {t('hiking-home')}
         </button>
         <button onClick={() => navigate('/restaurants')}>
           <img src={iconRestaurants} alt="" />
-          {t('restaurants')}
+          {t('restaurants-home')}
         </button>
         <button onClick={() => navigate('/insurance')}>
           <img src={iconInsurance} alt="" />

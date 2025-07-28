@@ -1,50 +1,126 @@
 {
   "title": "Bumblebee Explorations",
   "subtitle": "An interactive travel guide",
-  "photos": "Photos",
-  "extras": "Extras",
-  "spots": "Spots",
+  "photos-home": "Photos",
+  "extras-home": "Extras",
+  "spots-home": "Spots",
   "gear": "Add gear",
-  "hiking": "Hiking",
+  "hiking-home": "Hiking",
   "dolphins": "Dolphins",
   "canyoning": "Canyoning",
   "hikingTour": "Hiking Tour",
   "insurance": "Insurance",
+  "restaurants-home": "Restaurants",
   "contact": "Contact us",
   "bookYourExperience": "Book your experience",
 
-  "insuranceTitle": "DRIVE SAFE PLANS –",
-  "insuranceSubtitle": "For a trip with complete peace of mind!",
-  "insuranceIntro1": "The daily rate already includes the BASIC insurance, allowing you to rent the van at the best price.",
-  "insuranceIntro2": "However, for more comfort and safety, we offer two optional plans, available at an additional cost, to be paid on-site when returning the vehicle.",
+  "assurances": {
+    "title": "Drive Safe Packages – Choose Your Level of Protection",
+    "intro": "Every rental includes the BASIC PLAN, but for a smoother and safer experience, especially on an island with narrow roads and remote areas, most travelers choose one of the optional upgrades. All extras are payable on-site (cash or card) when the van is handed over.",
 
-  "basicTitle": "BASIC PLAN – Included in the price",
-  "basicPrice": "Price: €0/day (already included)",
-  "basicDeposit": "Deposit: €1000",
-  "basicDeductible": "Deductible: €1000",
-  "basicCoverage": "Coverage: Civil liability only",
-  "basicNotCovered": "Not covered: Vehicle damage, glass breakage, tires, second driver, or roadside assistance",
+    "coversTitle": "🛡️ Covers:",
+    "deductiblesTitle": "💥 Deductibles:",
 
-  "comfortTitle": "COMFORT PLAN – €19.90/day",
-  "comfortDeposit": "Reduced deposit: €750",
-  "comfortDeductible": "Deductibles:",
-  "comfortDamage": "Vehicle damage: €750",
-  "comfortRoadside": "Roadside assistance: €30",
-  "comfortGlass": "Glass breakage: €100",
-  "comfortCovered": "Covered: Glass breakage, tires, 24/7 travel assistance",
+    "basic": {
+      "label": "🟡 BASIC PLAN – Already Included",
+      "cost": "💶 Cost: €0 / day",
+      "deposit": "🔒 Security Deposit: €1000",
+      "deductible": "💥 Deductible: €1000",
+      "cover1": "✅ Third-party liability only",
+      "cover2": "❌ No coverage for damage to the van, windows, tires",
+      "cover3": "❌ No roadside assistance",
+      "cover4": "❌ No second driver",
+      "note": "A minimal legal coverage – any damage or assistance will be at your own risk."
+    },
 
-  "serenityTitle": "TOTAL SERENITY PLAN – €29.90/day",
-  "serenityDeposit": "Reduced deposit: €500",
-  "serenityCoverage": "Coverage includes:",
-  "serenityDamage": "Vehicle damage (interior and exterior)",
-  "serenityDriver": "Second driver",
-  "serenityTires": "Tires",
-  "serenityAssist": "Full travel assistance 24/7",
+    "comfort": {
+      "label": "🔵 COMFORT PLAN – €19.90 / day",
+      "cost": "💶 Cost: €19.90 / day",
+      "deposit": "🔒 Security Deposit: €750",
+      "deductible1": "* Vehicle damage: €1000",
+      "deductible2": "* Glass breakage: €150",
+      "deductible3": "* Tire damage: €50",
+      "deductible4": "* Roadside assistance: €0",
+      "cover1": "✅ Glass breakage",
+      "cover2": "✅ Tires",
+      "cover3": "✅ 24/7 roadside assistance",
+      "cover4": "✅ Third-party liability",
+      "cover5": "✅ Vehicle damage (outside only)",
+      "note": "Perfect for those who want peace of mind without breaking the bank — this plan covers the most frequent issues on the road."
+    },
 
-  "photosTitle": "Meet Bumblebee",
-  "photoDescription1": "Description 1",
-  "photoDescription2": "Description 2",
-  "photoDescription3": "Description 3",
-  "photoDescription4": "Description 4"
+    "serenity": {
+      "label": "🟣 FULL-SERENITY PLAN – €29.90 / day",
+      "cost": "💶 Cost: €29.90 / day",
+      "deposit": "🔒 Security Deposit: €500",
+      "deductible1": "* Vehicle damage: €750",
+      "deductible2": "* Windows and tires: €0",
+      "deductible3": "* Natural disaster: €350",
+      "deductible4": "* Roadside assistance: €0",
+      "cover1": "✅ Vehicle damage (inside & outside)",
+      "cover2": "✅ Glass breakage",
+      "cover3": "✅ Tires",
+      "cover4": "✅ Natural disasters",
+      "cover5": "✅ 24/7 travel assistance",
+      "cover6": "✅ Second driver",
+      "cover7": "✅ Third-party liability",
+      "note": "The most comprehensive plan – ideal for those who want to drive fully covered with no financial surprises, even in the worst-case scenario."
+    },
+
+    "finalNote": "📍 Note: The insurance plan is selected on the day of departure, during key handover and contract signature.",
+    "airportNote": "✈️ And don’t forget: I also offer airport pickup and drop-off for €25 each way. Just send me your flight times so I can organize it properly."
+  },
+
+  "extras": {
+    "title": "🎒 Extras",
+    "description": "All extras are available upon request — please book them in advance so we can prepare everything for your trip!",
+    "airportArrival": "🚕 Airport transfer (arrival): €25",
+    "airportDeparture": "🚕 Airport transfer (departure): €25",
+    "polaroid": "📸 Polaroid + roll of 10 shots: €20 or €7.50 for the camera only",
+    "surfboard": "🏄‍♂️ Surfboard: €15/day – €50/trip",
+    "toilet": "🚽 Dry toilet: €20",
+    "gas": "⛽️ Gas bottle: €8",
+    "projector": "📽️ Video projector: €25",
+    "kayak": "🛶 Kayak: €30/day – €80/trip",
+    "paddle": "💦 Paddleboard: €20/day – €60/trip",
+    "fishing": "🎣 Fishing kit: €15/day – €40/trip",
+    "snorkel": "🤿 Snorkeling kit: €10/day – €30/trip",
+    "childSeat": "👧🏼 Child seat: €30",
+    "bookNow": "Book now"
+  },
+
+  "hiking": {
+    "title": "🥾 Hiking in Madeira",
+    "description1": "Madeira is a paradise for hikers. Check out some beautiful trails to explore the island!",
+    "description2": "If you’re looking for a guided experience, talk to Elvio – he’s the best! He knows Madeira like no one else and loves showing the island in the most authentic and cultural way possible.",
+    "link": "See Hiking Trails 🌿"
+  },
+
+  "restaurants": {
+    "title": "🍽️ Restaurants",
+    "description": "Here’s a hand-picked selection of restaurants where you can enjoy the best of Madeiran cuisine. From local flavors to cozy places with stunning views, we made it easy for you!",
+    "link": "Discover Restaurants 🍴"
+  },
+
+  "spots": {
+    "title": "🌄 Safe Spots to Stay",
+    "description": "Madeira has breathtaking spots, but not all are suitable for overnight stays. To sleep in peace and respect nature, we selected a few safe places where you’re welcome to park and rest.",
+    "rule1": "🚫 No campfires unless explicitly allowed",
+    "rule2": "🧼 Always leave the place cleaner than you found",
+    "rule3": "🚿 Respect privacy and don’t shower in public",
+    "rule4": "🧘🏽 Use common sense and enjoy the island consciously",
+    "link": "View Safe Spots 🗺️"
+  },
+
+  "photos": {
+    "title": "📷 Travel Memories",
+    "caption1": "Chill time in the van",
+    "caption2": "Best memories with friends",
+    "caption3": "Say cheese! 🐮",
+    "caption4": "Let’s kayak this island!",
+    "caption5": "Bumblebee shining 💛",
+    "caption6": "Silent mornings, stunning views",
+    "caption7": "Coffee with a view ☕🌄"
+  }
 }
 
